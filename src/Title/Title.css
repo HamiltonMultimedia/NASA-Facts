@@ -1,0 +1,28 @@
+:local(.title) {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -10%;
+  margin-bottom: 0;
+  padding-top: 0.67em;
+  padding-bottom: 0.67em;
+}
+
+@media (max-width: 768px) {
+  :local(.title) {
+    margin-top: -25%;
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 568px) {
+  :local(.title) {
+    margin-top: -40%;
+    font-size: 1.7em;
+  }
+}

@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  :local(.grid) {
+    column-gap: 10px;
+    column-count: 2;
+    padding: 17px 10px 10px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  :local(.grid) {
+    column-gap: 10px;
+    column-count: 1;
+    padding: 175px 5px 10px 5px;
+  }
+  :local(.title) {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 568px) {
+  :local(.grid) {
+    column-gap: 10px;
+    column-count: 1;
+    padding: 0px 5px 10px 5px;
+  }
+  :local(.title) {
+    font-size: 3em;
+  }
+}
